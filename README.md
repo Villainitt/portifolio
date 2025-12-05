@@ -1,6 +1,8 @@
+
+
 # 🌌 Portfólio Pessoal | Camila
 
-![Imagem do projeto finalizado](assets/images/print-port.png)
+![Imagem do projeto finalizado](src/assets/images/print-port.png)
 
 <h4 align="center">
   <a href="https://villainitt.github.io/portifolio/">Clique aqui para acessar o projeto</a>
