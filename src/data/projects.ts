@@ -1,4 +1,11 @@
-export const projects = [
+export interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  link: string;
+}
+
+export const projects: Project[] = [
     {
         title: "Veris",
         description: "Plataforma de automatização de prazos legais. Integração com Google Calendar para agendamento automático de prazos de processos jurídicos.",

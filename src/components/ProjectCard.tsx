@@ -1,6 +1,11 @@
 import {ExternalLink} from 'lucide-react';
+import type { Project } from '../data/projects';
 
-function ProjectCard({ project }){
+interface ProjectCardProps {
+  project: Project;
+}
+
+function ProjectCard({ project }: ProjectCardProps){
     return(
         <div className="project-card">
             <div className="card-header">
